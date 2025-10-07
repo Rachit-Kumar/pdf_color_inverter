@@ -10,7 +10,8 @@ A simple desktop GUI to convert PDFs into high-contrast, inverted-color pages wi
 - Settings persist to settings.json.
 
 ***
-
+## - You can easily set multiple pages per sheet (e.g. for printing) in your PDF with this online tool.
+- https://online2pdf.com/en/multiple-pages-per-sheet
 ## Quick start (zero prior experience)
 
 Follow these steps exactly. If something doesn’t work, tell me which step you’re on and what error you see.
@@ -61,6 +62,7 @@ A window titled “PW Notes Converter - Split View + Live Tools” should open.
 - **Adjust settings**: Move sliders for Contrast, Brightness, Sharpness; toggle Grayscale. Preview updates live.
 - **Apply to all pages**: Click “Apply to All Pages” to reprocess entire document with current settings.
 - **Auto optimize**: “Auto Optimize for Print” sets contrast 1.3, brightness 1.05, sharpness 1.1, grayscale on.
+- **For Best Results use these Setting for PW Notes** : ["contrast": 2.4, "brightness": 1.9, "sharpness": 1.6, "grayscale": On]
 - **Navigate pages**: Use “⏮ Prev” and “Next ⏭”.
 - **Export**: In Export box, optionally enter ranges like `1-5,7,10-12`. Click “Export PDF” and choose save path.
 - **Batch mode**: Click “🗂 Batch Mode” to select multiple PDFs; each is processed and saved as `_converted`.
