@@ -113,7 +113,7 @@ def load_settings(filename="settings.json"):
         with open(filename, "r") as f:
             return json.load(f)
     except:
-        return {"contrast": 1.2, "brightness": 1.0, "sharpness": 1.0, "grayscale": True}
+        return {"contrast": 2.4, "brightness": 1.9, "sharpness": 1.6, "grayscale": True}
 
 
 # -----------------------------
@@ -348,3 +348,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = PDFConverterGUI(root)
     root.mainloop()
+
