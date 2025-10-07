@@ -40,8 +40,8 @@ You should see `(.venv)` at the start of your terminal line. Keep this activated
 
 ### 5) Install required libraries
 Run these commands in your activated virtual environment:
-pip install --upgrade pip
-pip install pymupdf pillow
+- `pip install --upgrade pip`
+- `pip install pymupdf pillow`
 
 If Tkinter is missing:
 - Ubuntu/Debian: `sudo apt-get install python3-tk`
